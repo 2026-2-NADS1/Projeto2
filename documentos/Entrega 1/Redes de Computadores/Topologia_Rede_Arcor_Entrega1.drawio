@@ -1,0 +1,240 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="topologia-arcor" name="Topologia de Rede">
+    <mxGraphModel dx="1400" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1320" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- TÍTULO -->
+        <mxCell id="title" value="&lt;font style=&quot;font-size:26px&quot;&gt;&lt;b&gt;Topologia de Rede&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:20px&quot;&gt;&lt;b&gt;Sistema Digital de Gamificação Arcor&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;&lt;b&gt;Parte 1 – Rede de Computadores&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0B3D91;fontColor=#FFFFFF;strokeColor=none;align=left;spacingLeft=24;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="15" y="15" width="515" height="135" as="geometry" />
+        </mxCell>
+
+        <!-- ZONAS -->
+        <mxCell id="dmz" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fillColor=#EFEAFB;strokeColor=#7B4FD0;strokeWidth=1.5;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="45" y="500" width="855" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz_tag" value="&lt;b&gt;DMZ (Servidores Públicos)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7B4FD0;fontColor=#FFFFFF;strokeColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="55" y="498" width="268" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lan" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fillColor=#E3F5E6;strokeColor=#1FA25A;strokeWidth=1.5;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="25" y="845" width="875" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lan_tag" value="&lt;b&gt;LAN (Rede Interna)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1FA25A;fontColor=#FFFFFF;strokeColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="208" height="38" as="geometry" />
+        </mxCell>
+
+        <!-- EQUIPAMENTOS -->
+        <mxCell id="internet" value="&lt;b&gt;&lt;font style=&quot;font-size:20px&quot;&gt;Internet&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#CDE8FB;strokeColor=#1E88E5;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="415.5" y="160" width="235" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="modem" value="" style="shape=mxgraph.networks.modem;html=1;fillColor=#3A3F4B;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="478" y="305" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="modem_lbl" value="&lt;b&gt;Modem / Roteador&lt;/b&gt;&lt;br&gt;(ISP)" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="608" y="305" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fw" value="" style="shape=mxgraph.networks.firewall;html=1;fillColor=#E8501A;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="86" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="fw_lbl" value="&lt;b&gt;Firewall&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;(controle de acesso e&lt;br&gt;segurança da rede)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="608" y="390" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="web" value="" style="shape=mxgraph.networks.server;html=1;fillColor=#2B3A55;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="262" y="570" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="web_lbl" value="&lt;b&gt;Servidor Web&lt;/b&gt;&lt;br&gt;(Aplicação do Quiz)&lt;br&gt;IP: 10.0.10.10" style="text;html=1;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="192" y="665" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="db" value="" style="shape=mxgraph.networks.server_storage;html=1;fillColor=#2B3A55;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="655" y="570" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="db_lbl" value="&lt;b&gt;Servidor de Banco de Dados&lt;/b&gt;&lt;br&gt;(Dados do sistema)&lt;br&gt;IP: 10.0.10.11" style="text;html=1;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="575" y="665" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz_lbl" value="Rede interna da DMZ&lt;br&gt;&lt;font color=&quot;#1F3A9E&quot;&gt;(10.0.10.0/24)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=bottom;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="573" width="180" height="38" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sw" value="" style="shape=mxgraph.networks.switch;html=1;fillColor=#2B4A7C;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="473" y="785" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sw_lbl" value="&lt;b&gt;Switch Principal&lt;/b&gt;&lt;br&gt;(LAN)" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="610" y="760" width="160" height="42" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pc" value="" style="shape=mxgraph.networks.pc;html=1;fillColor=#1E88E5;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="105" y="985" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_lbl" value="&lt;b&gt;Computadores&lt;/b&gt; (Jogadores)&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;IP: 192.168.1.0/24&lt;br&gt;(ex.: 192.168.1.10 – 192.168.1.50)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1065" width="230" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nb" value="" style="shape=mxgraph.networks.laptop;html=1;fillColor=#1E88E5;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="348" y="985" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nb_lbl" value="&lt;b&gt;Notebook&lt;/b&gt; (Equipe / Gestão)&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;IP: 192.168.1.0/24&lt;br&gt;(ex.: 192.168.1.51 – 192.168.1.70)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1065" width="236" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ap" value="" style="shape=mxgraph.networks.wireless_hub;html=1;fillColor=#2B3A55;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="632" y="905" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ap_lbl" value="&lt;b&gt;Access Point&lt;/b&gt;&lt;br&gt;(Wi-Fi)" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="698" y="866" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mob" value="" style="shape=mxgraph.networks.mobile;html=1;fillColor=#1E88E5;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="585" y="980" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mob_lbl" value="&lt;b&gt;Dispositivos Móveis&lt;/b&gt;&lt;br&gt;(Jogadores)&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;IP: 192.168.1.0/24&lt;br&gt;(via Wi-Fi)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1065" width="170" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="prt" value="" style="shape=mxgraph.networks.printer;html=1;fillColor=#2B3A55;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="985" width="75" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="prt_lbl" value="&lt;b&gt;Impressora&lt;/b&gt; (Opcional)&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;IP: 192.168.1.100&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=top;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="712" y="1065" width="170" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- CONEXÕES -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;" edge="1" parent="1" source="internet" target="modem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;" edge="1" parent="1" source="modem" target="fw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="fw" target="web">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="533" y="548" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="fw" target="db">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="533" y="548" /></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="web" target="db">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;exitX=0.5708;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;" edge="1" parent="1" source="dmz" target="sw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="sw" target="pc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="sw" target="nb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="sw" target="ap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="Wi-Fi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;dashed=1;strokeWidth=2;strokeColor=#1F3A6E;fontSize=11;labelBackgroundColor=#E3F5E6;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="ap" target="mob">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeWidth=2;strokeColor=#1F3A6E;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="ap" target="prt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- LEGENDA -->
+        <mxCell id="leg_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F3FD;strokeColor=#1E88E5;strokeWidth=2;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="930" y="18" width="365" height="625" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_title" value="&lt;b&gt;Legenda dos Equipamentos&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;fontSize=18;fontColor=#0B2A8A;" vertex="1" parent="1">
+          <mxGeometry x="945" y="28" width="330" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#CDE8FB;strokeColor=#1E88E5;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="955" y="65" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="l1t" value="Internet" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="72" width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l2" value="" style="shape=mxgraph.networks.modem;html=1;fillColor=#3A3F4B;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="958" y="127" width="66" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="l2t" value="&lt;b&gt;Modem / Roteador (ISP)&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="124" width="230" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l3" value="" style="shape=mxgraph.networks.firewall;html=1;fillColor=#E8501A;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="965" y="160" width="50" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="l3t" value="Firewall" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="165" width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l4" value="" style="shape=mxgraph.networks.switch;html=1;fillColor=#2B4A7C;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="955" y="214" width="75" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="l4t" value="Switch" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="210" width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l5" value="" style="shape=mxgraph.networks.server;html=1;fillColor=#2B3A55;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="970" y="248" width="34" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l5t" value="Servidor Web (DMZ)" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="258" width="230" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l6" value="" style="shape=mxgraph.networks.server_storage;html=1;fillColor=#2B3A55;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="970" y="308" width="34" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l6t" value="Servidor de Banco de Dados (DMZ)" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="318" width="245" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l7" value="" style="shape=mxgraph.networks.pc;html=1;fillColor=#1E88E5;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="958" y="373" width="66" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="l7t" value="Computador (LAN)" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="376" width="230" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l8" value="" style="shape=mxgraph.networks.laptop;html=1;fillColor=#1E88E5;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="965" y="430" width="52" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="l8t" value="Notebook (LAN)" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="434" width="230" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l9" value="" style="shape=mxgraph.networks.mobile;html=1;fillColor=#1E88E5;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="979" y="486" width="24" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="l9t" value="Dispositivo Móvel (LAN)" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="492" width="230" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l10" value="" style="shape=mxgraph.networks.wireless_hub;html=1;fillColor=#2B3A55;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="962" y="548" width="54" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="l10t" value="Access Point (Wi-Fi)" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="547" width="230" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l11" value="" style="shape=mxgraph.networks.printer;html=1;fillColor=#2B3A55;strokeColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="968" y="592" width="44" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="l11t" value="Impressora (LAN)" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="596" width="230" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- REDES E FAIXAS DE IP -->
+        <mxCell id="ip_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4D6;strokeColor=#F5A623;strokeWidth=2;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="930" y="662" width="365" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ip_txt" value="&lt;font style=&quot;font-size:17px&quot;&gt;&lt;b&gt;Principais Redes e Faixas de IP&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;DMZ (Servidores Públicos)&lt;/b&gt;&lt;br&gt;10.0.10.0/24&lt;br&gt;&amp;nbsp;&amp;nbsp;• Web: 10.0.10.10&lt;br&gt;&amp;nbsp;&amp;nbsp;• Banco de Dados: 10.0.10.11&lt;br&gt;&lt;br&gt;&lt;b&gt;LAN (Rede Interna)&lt;/b&gt;&lt;br&gt;192.168.1.0/24&lt;br&gt;&amp;nbsp;&amp;nbsp;• PCs: 192.168.1.10 – 192.168.1.50&lt;br&gt;&amp;nbsp;&amp;nbsp;• Notebooks: 192.168.1.51 – 192.168.1.70&lt;br&gt;&amp;nbsp;&amp;nbsp;• Móveis: 192.168.1.71 – 192.168.1.90&lt;br&gt;&amp;nbsp;&amp;nbsp;• Impressora: 192.168.1.100&lt;br&gt;&lt;br&gt;&lt;b&gt;Gateway (Firewall/Roteador)&lt;/b&gt;&lt;br&gt;192.168.1.1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="945" y="670" width="340" height="285" as="geometry" />
+        </mxCell>
+
+        <!-- CONSIDERAÇÕES -->
+        <mxCell id="cons_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F3FD;strokeColor=#1E88E5;strokeWidth=2;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="930" y="972" width="365" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cons_txt" value="&lt;font style=&quot;font-size:16px&quot;&gt;&lt;b&gt;Considerações&lt;/b&gt;&lt;/font&gt;&lt;br&gt;• A &lt;b&gt;DMZ&lt;/b&gt; isola os servidores públicos da rede interna.&lt;br&gt;• O firewall controla o tráfego entre a Internet, DMZ e LAN.&lt;br&gt;• O banco de dados não é acessível diretamente da Internet.&lt;br&gt;• A rede interna é utilizada pelos usuários, equipe de gestão e dispositivos móveis.&lt;br&gt;• O acesso ao sistema pode ser feito via navegador (HTTP/HTTPS) ou aplicativo móvel." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="942" y="978" width="345" height="198" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
