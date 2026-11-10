@@ -34,3 +34,22 @@ G:\ADS_1\QuizArcor\obj\Debug\net10.0\refint\QuizArcor.dll
 G:\ADS_1\QuizArcor\obj\Debug\net10.0\QuizArcor.pdb
 G:\ADS_1\QuizArcor\obj\Debug\net10.0\QuizArcor.genruntimeconfig.cache
 G:\ADS_1\QuizArcor\obj\Debug\net10.0\ref\QuizArcor.dll
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\bin\Debug\net10.0\QuizArcor.exe
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\bin\Debug\net10.0\QuizArcor.deps.json
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\bin\Debug\net10.0\QuizArcor.runtimeconfig.json
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\bin\Debug\net10.0\QuizArcor.dll
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\bin\Debug\net10.0\QuizArcor.pdb
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\bin\Debug\net10.0\Spectre.Console.dll
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\bin\Debug\net10.0\Spectre.Console.Ansi.dll
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.csproj.AssemblyReference.cache
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.AssemblyInfoInputs.cache
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.AssemblyInfo.cs
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.csproj.CoreCompileInputs.cache
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.sourcelink.json
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.csproj.Up2Date
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.dll
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\refint\QuizArcor.dll
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.pdb
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\QuizArcor.genruntimeconfig.cache
+C:\Users\26029566\Documents\GitHub\Projeto2\src\Entrega 2\QuizArcor\obj\Debug\net10.0\ref\QuizArcor.dll
