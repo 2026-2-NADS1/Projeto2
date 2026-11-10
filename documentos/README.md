@@ -1,5 +1,5 @@
 # Entregas do PI
-
+### **DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL**
 ## Entrega 2
 <br><br>
 
