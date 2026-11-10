@@ -1,31 +1,15 @@
 # Entregas do PI
-
-## Entrega 1
+### **DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL**
+## Entrega 2
 <br><br>
 
-### Disciplina 1
+### Módulo do sistema 1
 
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-
-### Disciplina 2
-
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-
-### Disciplina 3
-
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
-<b>ALUNO 1- [Trabalho/Documento](https://github.com/fecaphub/Template_PI/blob/main/documentos/Entrega%201/Disciplina%201/Venha%20para%20a%20FECAP!.txt)</b>
-<br><br>
+| **Aluno(s) Responsável(veis)** |Marco Iazzetti  |
+| :--- | :--- |
+| **Ferramenta utilizada** | Claude |
+| **Versão/modelo** | Claude Sonnet 5.5 |
+| **Disciplina / Trabalho** | Modelagem de Software |
+| **Finalidade de uso** | Criação de requisitos funcionais e não funcionais |
+| ***Prompts* principais utilizados** | "Me ajude a criar requisitos funcionais e não funcionais baseado no documento em anexo (documento de amostra)." |
+| **Trechos ou entregas afetadas** | Ajudou a criar os requisitos funcionais e não funcionais da parte de modelagem de software.  |
