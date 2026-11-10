@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ATa2Ww23oxE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\26029717\\Desktop\\Projeto2\\src\\Entrega 2\\QuizArcor\\QuizArcor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\26029717\\.nuget\\packages\\spectre.console\\0.57.2\\spectre.console.0.57.2.nupkg.sha512",
+    "C:\\Users\\26029717\\.nuget\\packages\\spectre.console.ansi\\0.57.2\\spectre.console.ansi.0.57.2.nupkg.sha512"
+  ],
+  "logs": []
+}
